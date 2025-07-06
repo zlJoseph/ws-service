@@ -25,8 +25,8 @@ Debe contener al menos una columna con el número (`Numero`) y otras con los dat
 
 ```csv
 Numero,Nombre,Producto
-51987654321,Juan,Camiseta
-51912345678,Ana,Pantalón
+519........,Juan,Camiseta
+519........,Ana,Pantalón
 ```
 
 ### Template del mensaje

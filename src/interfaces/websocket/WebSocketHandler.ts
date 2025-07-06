@@ -1,6 +1,6 @@
 import WebSocket from 'ws';
 import { IncomingMessage } from 'src/domain/valueObjects';
-import type { ProcessClientStepUseCase } from '../../application/use-cases/ProcessClientStepUseCase';
+import type { ProcessClientStepUseCase } from '../../application/useCases/ProcessClientStepUseCase';
 import type { ClientWsPort, Logger } from 'src/application/ports/output';
 import type { AuthenticatedWebSocket } from './types';
 import { IncomingMessageMapper } from 'src/infrastructure/mapper';

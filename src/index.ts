@@ -5,7 +5,7 @@ import type { createClient } from 'redis';
 import type { AuthenticatedWebSocket } from 'src/interfaces/websocket';
 import { WebSocketHandler } from 'src/interfaces/websocket';
 import { WhatsAppSessionsWS } from 'src/infrastructure/whatsapp';
-import { ProcessClientStepUseCase, WorkSessionAuthUseCase } from 'src/application/use-cases';
+import { ProcessClientStepUseCase, WorkSessionAuthUseCase } from 'src/application/useCases';
 import { initRedisClient } from 'src/infrastructure/cache';
 import { CacheRepositoryRedis } from 'src/infrastructure/repositories';
 import { validateWebSocketConnection } from 'src/interfaces/middleware';

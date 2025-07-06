@@ -1,5 +1,5 @@
 import type { IncomingMessage } from 'http';
-import type { WorkSessionAuthUseCase } from 'src/application/use-cases/WorkSessionAuthUseCase';
+import type { WorkSessionAuthUseCase } from 'src/application/useCases/WorkSessionAuthUseCase';
 import type { AuthenticatedWebSocket } from '../websocket/types';
 
 export async function validateWebSocketConnection(
