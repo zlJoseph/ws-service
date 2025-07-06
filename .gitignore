@@ -1,0 +1,10 @@
+/auth
+node_modules
+
+.env
+
+dist
+
+*.bat
+
+*.txt

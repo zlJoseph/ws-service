@@ -1,0 +1,14 @@
+.git
+.gitignore
+
+.env
+
+Dockerfile
+
+*.bat
+
+*.txt
+
+/dist
+/auth
+/node_modules

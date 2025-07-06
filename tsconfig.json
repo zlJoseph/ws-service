@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    /* Modules */
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": false,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "paths": {
+      "@whiskeysockets/libsignal-node": [
+        "./src/@types/@whiskeysockets/libsignal-node"
+      ],
+      "src/*": ["src/*"]
+    }
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["node_modules", "src/Tests/*"]
+}
